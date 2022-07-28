@@ -1,11 +1,13 @@
 # Next.js and Auth0 Example
 
+Now the official example is in typescript this is that same version in JavaScript.
+
 This example shows how you can use `@auth0/nextjs-auth` to easily add authentication support to your Next.js application. It tries to cover a few topics:
 
 - Signing in
 - Signing out
-- Loading the user on the server side and adding it as part of SSR ([`pages/advanced/ssr-profile.tsx`](pages/advanced/ssr-profile.tsx))
-- Loading the user on the client side and using fast/cached SSR pages ([`pages/index.tsx`](pages/index.tsx))
+- Loading the user on the server side and adding it as part of SSR ([`pages/advanced/ssr-profile.js`](pages/advanced/ssr-profile.js))
+- Loading the user on the client side and using fast/cached SSR pages ([`pages/index.js`](pages/index.js))
 - API Routes which can load the current user ([`pages/api/me.ts`](pages/api/me.ts))
 - Using hooks to make the user available throughout the application ([`lib/user.ts`](lib/user.ts))
 
