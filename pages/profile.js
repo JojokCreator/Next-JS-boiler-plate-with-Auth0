@@ -2,7 +2,6 @@
 // import auth0 from '../lib/auth0'
 import { useFetchUser } from '../lib/user'
 import Layout from '../components/layout'
-import { User } from '../interfaces'
 
 const ProfileCard = ({ user }) => {
   return (
